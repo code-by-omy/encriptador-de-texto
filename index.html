@@ -19,21 +19,25 @@
     </header>
 
     <main>
-        <section>
-            <p class="regla-encriptador">Solo letras minúsculas y sin acento</p>
-            <button onclick="encriptarTexto();" class="boton-encriptador">Encriptar texto</button>
-            <button onclick="desencriptarTexto();" class="boton-desencriptador">Desencriptar texto</button>
-        </section>
-        <section>
-            <div class="copiar">
-                <h2></h2>
-                <img src="imagenes/Lateral.png">
-
+        <div class="container">
+            <div class="container__contenido">
+                <div class="container__informaciones">
+                    <div class="container__texto">
+                        <h2></h2>
+                        <p class="texto_parrafo"></p>
+                    </div>
+                    <input type="text" id="textoUsuario">
+                    <div class="pulse container__botones">
+                        <p class="regla-encriptador">Solo letras minúsculas y sin acento</p>
+                           <button onclick="encriptarTexto();" class="container__boton">Encriptar texto</button>
+                           <button onclick="desencriptarTexto();" class="container_boton" id="desencriptar">Desencriptar texto</button>
+                    </div>
+                </div>  
             </div>
-        </section>
-        
-
+        </div>
+     
     </main>
     
+    <script src="app.js"></script>
 </body>
 </html>
