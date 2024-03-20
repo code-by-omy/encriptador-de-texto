@@ -1,3 +1,36 @@
 body{
     font-family: "Nunito", sans-serif;
 }
+
+.logo-alura{
+    width: 940px;
+}
+
+h1{
+    margin: 60px 40px;
+}
+
+.container__informaciones{
+    position: fixed;
+    top: 150px; left: 100px; bottom: 20px; right: 220px;
+}
+
+.container__texto{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+h2{
+    position: fixed;
+    top: 150px; left: 100px; bottom: 20px; right: 220px; 
+}
+
+#textoUsuario{
+    position: relative;
+    top: 150px; left: 100px; bottom: 20px; right: 220px; 
+}
+
+.copiado{
+    position: fixed;
+    top: 150px; left: 900px; bottom: 20px; right: 200px;
+}
