@@ -29,13 +29,15 @@ main{
 
 .encriptar-texto{
     position: fixed;
-    top: 100px; left: 100px; bottom: 80px; right: 450px;
-    margin: 3%;
+    top: 100px; left: 100px; bottom: 100px; right: 450px;
+    padding-left: 100%;
+    width: 1080px;
+    height: 600px;
 }
 
 .area-texto{
     position: fixed;
-    top: 100px; left: 100px; bottom: 100px; right: 450px;
+    top: 100px; left: 100px; bottom: 150px; right: 450px;
     border: none;
     padding: 0;
     background-color: rgba(244, 212, 247);
@@ -46,4 +48,9 @@ main{
 
 .area-texto::placeholder{
     color: rgb(132, 9, 143);
+}
+
+.regla-encriptado{
+    position: fixed;
+    top: 500px; left: 100px; bottom: 50px; right: 450px;
 }
