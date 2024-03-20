@@ -13,46 +13,28 @@
 </head>
 <body>
     <header>
-        <div class="logo-alura">
-            <h1><img src="imagenes/Alura logo.jpg" class="logo"></h1>
-        </div>
+        <h1><img src="imagenes/Alura logo.jpg" class="logo-alura" alt="Logo Alura"></h1>
     </header>
 
     <main>
-        <div class="container">
-            <div class="container__contenido">
-                <div class="container__informaciones">
-                    <div class="container__texto">
-                        <h2></h2>
-                        <p class="texto_parrafo"></p>
-                    </div>
-                    <input type="text" id="textoUsuario">
-                    <div class="pulse container__botones">
-                        <p class="regla-encriptador">Solo letras minúsculas y sin acento</p>
-                           <button onclick="encriptarTexto();" class="container__boton">Encriptar texto</button>
-                           <button onclick="desencriptarTexto();" class="container_boton" id="desencriptar">Desencriptar texto</button>
-                    </div>
-                </div>  
-            </div>
+        <div>
+            <form class="encripta-texto">
+                <textarea name="mensaje" id="mensaje-encriptado" cols="70" rows="10" required placeholder="Ingrese el texto aquí."></textarea>
+                <p class="regla-encriptado">Solo letras minusculas y sin acento.</p>
+                <input type="button" onclick="encriptarTexto()" value="Encriptar" class="boton-encriptar">
+                <input type="button" onclick="desencriptarTexto()" value="Desencriptar" class="boton-desencriptar">
+            </form>
         </div>
+        <div>
+            <form class="copiar-texto">
+                <textarea name="mensaje copiado" id="mensaje-copiado" cols="20" rows="10" required placeholder="Ingrese el texto aquí."></textarea>
+            </form>
+        </div>
+       
 
-        <div class="copiado">
-            <div class="copiado">
-                <div class="copiado__informaciones">
-                    <div class="copiado__texto">
-                        <h2></h2>
-                        <p class="texto_parrafo"></p>
-                    </div>
-                    <input type="text" id="copiarTextoEncriptado">
-                    <div class="pulse copiado__botones">
-                        <button onclick="copiarEncriptado();" class="copiado__boton">Copiar</button>
-                    </div>
-                </div>  
-            </div>
-        </div>
-     
     </main>
+</body>
+    
     
     <script src="app.js"></script>
-</body>
 </html>
