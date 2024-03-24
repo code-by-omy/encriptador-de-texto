@@ -93,7 +93,7 @@ main{
     font-weight: bold;
     color: white;
     background: rgb(191, 190, 190);
-    border-style: groove;
+    border-style: solid;
     border-color: rgb(132, 9, 143);
     border-radius: 20px;
     transition: 1s all;
@@ -147,4 +147,16 @@ h2{
     border-radius: 20px;
     transition: 1s all;
     cursor: pointer;
+}
+
+h3{
+    position: relative;
+    top: 780px; 
+    left: 60px; 
+    bottom: 50px; 
+    right: 100px;
+    font-family: "Nunito", sans-serif;
+    color:black;
+    opacity: 0.3;
+    
 }
