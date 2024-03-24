@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 1040px;
+    width: 940px;
     background-color: rgba(244, 212, 247);
 }
 
@@ -40,7 +40,7 @@ main{
     border: none;
     padding: 0;
     background-color: rgba(244, 212, 247);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     color: rgb(132, 9, 143);
 }
@@ -51,7 +51,7 @@ main{
 
 .regla-encriptado{
     position: relative;
-    top: 200px; 
+    top: 180px; 
     left: 100px;
     bottom: 50px; 
     right: 450px;
@@ -65,7 +65,7 @@ main{
 
 .boton-encriptar{
     position: relative;
-    top: 220px; 
+    top: 200px; 
     left: 100px; 
     bottom: 100px; 
     right: 250px;
@@ -83,7 +83,7 @@ main{
 
 .boton-desencriptar{
     position: relative;
-    top: 220px; 
+    top: 200px; 
     left: 150px; 
     bottom: 100px; 
     right: 250px;
@@ -104,12 +104,12 @@ main{
     display: block;
     position: relative;
     width: 400px;
-    height: 900px;
-    right: 100px;
-    bottom: 50px;
-    background-color: rgb(132, 9, 143);
+    height: 800px;
+    margin: 20px 100px 100px 0;
+    background-color: rgb(132, 9, 143, 0.4);
     border-radius: 40px 40px 40px 40px;
     align-content: center;
+    box-shadow: 10px 10px 30px 15px rgba(52, 2, 56, 0.3);
 }
 
 .imagen-lupa{
@@ -122,4 +122,29 @@ h2{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+}
+
+.mensaje-busqueda p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.boton-copiar{
+    position: relative;
+    top: 150px; 
+    left: 60px; 
+    bottom: 100px; 
+    right: 200px;
+    width: 70%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(132, 9, 143);
+    background-color: rgb(132, 9, 143, 0.2);
+    border-style: solid;
+    border-color: rgb(132, 9, 143);
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
 }
